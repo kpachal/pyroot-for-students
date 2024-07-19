@@ -7,7 +7,7 @@ How to set up ATLAS style
    > git clone ssh://git@gitlab.cern.ch:7999/atlas-publications-committee/atlasrootstyle.git .
    After doing the above you should see a bunch of files directly inside your RootUtils directory. If instead you see another directory called atlasrootstyle/ move its contents to your current dir.
 4) In your directory you should now see a file called "dot.rootrc". Copy it to your $HOME directory and rename it ".rootrc" (that is, just get rid of the word "dot" at the front. Starting with an actual dot will make the file invisible when you ls but root can see it.)
-   > cp atlasrootstyle/dot.rootrc ${HOME}/.rootrc
+   > cp dot.rootrc ${HOME}/.rootrc
 5) Add the following line to your .bashrc or whatever setup script you run when you log in. It is also in a simple one-line setup script in the sample code directory with this README file.
    > export PYTHONPATH="${PYTHONPATH}:${HOME}/RootUtils/"
 
